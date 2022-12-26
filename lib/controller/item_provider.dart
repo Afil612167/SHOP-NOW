@@ -44,7 +44,7 @@ class ItemChange extends ChangeNotifier {
       currentProductList.clear();
       // print(productList1.length);
       productList1.forEach((element) {
-        print(element.category);
+        // print(element.category);
         if (element.category == defaultCategory) {
           currentProductList.add(element);
         }
