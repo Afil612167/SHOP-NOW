@@ -12,9 +12,6 @@ Future<void> main() async {
   runApp(ChangeNotifierProvider(
     create: (context) => ItemChange(),
     child: MaterialApp(
-      theme: ThemeData(
-        brightness: Brightness.dark
-      ),
       debugShowCheckedModeBanner: false,
       home: SplashScreen()),
   ));
